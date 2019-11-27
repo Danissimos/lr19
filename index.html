@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html >
+<head>
+<title>Лабораторная 19</title>
+<script>
+    let x;
+    let arr =["123","Строка", "x"];
+    alert(` Первые два элемента массива: ${arr[0]}, ${arr[1]}`);
+    arr[2] = 22.8;
+    alert(` Третий элемент: ${arr[2]}`);
+    arr.push("Last element");
+    arr.unshift("1");
+    alert(` Весь массив: ${arr} `);
+    alert(` Длина массива: ${arr.length} `);
+    let str = "«Every man in the world! Every woman on earth!»";
+    alert(str);
+    let newstr = str.replace(/woman/g, 'person'); 
+    newstr = newstr.replace(/man/g, 'person');
+    alert(newstr);
+</script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="script.js">
+<style>
+    .div1{
+        width: 50%;
+        height: 80%;
+        margin-top: 10%;
+        border: 6px double rgb(9, 85, 95);
+        padding: 2%;
+        background-color: rgb(111, 119, 236);
+        border-radius: 40px;
+        font-family: Monotype Corsiva;
+        font-size: 17px;
+    }
+</style>
+</head>
+<body><center>
+<div class="div1">
+<a href="script.js" target="_blank">Нажмите для перехода на другую страницу</a>
+</div>
+<br><br>
+</center></body>
+</html>
+  
